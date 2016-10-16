@@ -1,0 +1,10 @@
+[
+	"node_modules/angular/angular.js",
+	"node_modules/angular-route/angular-route.js",
+	"app/app.js",
+	"app/route.config.js",
+	"app/modules/data-table/data-table.module.js",
+	"app/services/service.js",
+	"app/modules/data-table/data-table.component.js",
+	"app/directives/upload/upload.directive.js"
+]

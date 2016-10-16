@@ -1,0 +1,14 @@
+<upload output="table" type="upload"></upload>
+
+<table ng-if="table">
+	<tbody>
+		<tr ng-repeat="row in table track by $index"">
+			<td ng-repeat="cell in row  track by $index"">
+				{{cell}}
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<upload ng-if="table" output="table" type="update"></upload>
